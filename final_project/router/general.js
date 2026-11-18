@@ -48,7 +48,7 @@ public_users.post("/register", (req, res) => {
 
   users.push({ username, password });
   return res.status(200).json({
-    message: "User registered successfully"
+    message: "User successfully registered. You can now log in."
   });
 });
 
